@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kamus Sunda</string>
+    <string name="kat_frasa">Frasa</string>
+    <string name="kat_nomer">Nomer</string>
+    <string name="kat_keluarga">Anggota Keluarga</string>
+    <string name="kat_warna">Warna</string>
+</resources>

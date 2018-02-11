@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.brizz.kamussunda.MainActivity">
+
+    <TextView
+        android:id="@+id/frasa"
+        style="@style/kategori_kamus"
+        android:background="@color/kat_frasa"
+        android:text="@string/kat_frasa" />
+
+    <TextView
+        android:id="@+id/keluarga"
+        style="@style/kategori_kamus"
+        android:background="@color/kat_keluarga"
+        android:text="@string/kat_keluarga" />
+
+    <TextView
+        android:id="@+id/nomer"
+        style="@style/kategori_kamus"
+        android:background="@color/kat_nomer"
+        android:onClick="tampilNomer"
+        android:text="@string/kat_nomer" />
+
+    <TextView
+        android:id="@+id/warna"
+        style="@style/kategori_kamus"
+        android:background="@color/kat_warna"
+        android:text="@string/kat_warna" />
+</LinearLayout>
